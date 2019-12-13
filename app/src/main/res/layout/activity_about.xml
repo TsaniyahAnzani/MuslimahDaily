@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".aboutActivity">
+    <LinearLayout
+        style="@style/layout"
+        android:orientation="vertical"
+        android:background="@color/background"
+        >
+
+        <TextView
+            android:text="My Profile"
+            style="@style/judulintent"
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:src="@drawable/foto"/>
+        <TextView
+            style="@style/juduldatastyle"
+            android:text="data pribadi"
+            />
+        <LinearLayout
+            style="@style/layoutdata">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/nama"
+                    style="@style/layout"
+                    android:text="NAMA "
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    android:id="@+id/nim"
+                    style="@style/layout"
+                    android:text="NIM "
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    style="@style/layout"
+                    android:text="JURUSAN "
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    style="@style/layout"
+                    android:text="ANGKATAN "
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    style="@style/layout"
+                    android:text="TTL"
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    style="@style/layout"
+                    android:text="ALAMAT"
+                    android:textSize="8pt"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/isi_nama"
+                    style="@style/layout"
+                    android:text=": Tsaniyah Anzani"
+                    android:textSize="8pt"
+                    />
+
+                <TextView
+                    android:id="@+id/isi_nim"
+                    style="@style/layout"
+                    android:text=": 09031281722084"
+                    android:textSize="8pt"
+                    />
+
+                <TextView
+                    style="@style/layout"
+                    android:text=": Sistem Informasi Reguler B"
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    style="@style/layout"
+                    android:text=": 2017"
+                    android:textSize="7pt"
+                    />
+
+                <TextView
+                    style="@style/layout"
+                    android:text=": Palembang,14 September 1999"
+                    android:layout_marginRight="10dp"
+                    android:textSize="7pt"
+                    />
+
+                <TextView
+                    style="@style/layout"
+                    android:text=": Jln.KhAzhari lr.seisemajid No.707"
+                    android:layout_marginRight="10dp"
+                    android:textSize="7pt"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

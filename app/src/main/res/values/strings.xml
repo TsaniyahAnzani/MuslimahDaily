@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Muslimah Daily</string>
+    <string name="Amal_yaumi_for">Amal Yaumi untuk Tanggal</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="mengerjakan_sholat_magrib">Mengerjakan Sholat Magrib</string>
+    <string name="mengerjakan_sholat_isya">Mengerjakan Sholat Isya</string>
+    <string name="mengerjakan_sholat_subuh">Mengerjakan Sholat Subuh</string>
+    <string name="mengerjakan_sholat_dzuhur">Mengerjakan Sholat Dzuhur</string>
+    <string name="mengerjakan_sholat_ashar">Mengerjakan Sholat Ashar</string>
+    <string name="mengerjakan_sholat_dhuha">Mengerjakan Sholat Sunnah Dhuha Sebanyak</string>
+    <string name="mengerjakan_sholat_rawatib">Mengerjakan Sholat Sunnah Rawatib Sebanyak</string>
+    <string name="membaca_alquran">Membaca Al-Qur\'an Sebanyak</string>
+    <string name="terimah_kasih">Syukron Katsiron,,,,, Jazakullah</string>
+    <!-- Teks yang ditampilkan di daftar jika tidak ada gempa [CHAR LIMIT=NONE] -->
+    <string name="no_alquran">No alquran found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+</resources>

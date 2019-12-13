@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".amalyaumiActivity"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:text="Amal Yaumi"
+        android:textAlignment="center"
+        style="@style/judulintent" />
+    <EditText
+        android:id="@+id/tanggal_field"
+        style="@style/layout"
+        android:hint="Tanggal Hari ini"
+        android:inputType="datetime"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sholat Fardhu"
+        android:textAllCaps="true"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textColor="#000000"/>
+
+    <CheckBox android:id="@+id/magrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="magrib"
+        android:paddingLeft="24dp"/>
+    <CheckBox android:id="@+id/isya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isya'"
+        android:paddingLeft="24dp"/>
+    <CheckBox android:id="@+id/subuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subuh"
+        android:paddingLeft="24dp"/>
+    <CheckBox android:id="@+id/dzuhur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dzuhur"
+        android:paddingLeft="24dp"/>
+    <CheckBox android:id="@+id/ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashar"
+        android:paddingLeft="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tilawah (perhalaman)"
+        android:textAllCaps="true"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="decrement"
+           />
+        <TextView
+            android:id="@+id/quantity_tilawah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAllCaps="true"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"/>
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="increment"
+    />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sholat Dhuha (jumlah rakaat)"
+        android:textAllCaps="true"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/dhuha"
+        style="@style/layout"
+        android:hint="ex: 12 "
+        android:inputType="number"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shalat Sunnah Rawatib (jumlah yang dikerjakan)"
+        android:textAllCaps="true"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/rawatib"
+        style="@style/layout"
+        android:hint="ex : 4"
+        android:inputType="number"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim ke Murobbi"
+            android:onClick="submitMurobbi"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</ScrollView>
